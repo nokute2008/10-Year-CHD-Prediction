@@ -17,6 +17,10 @@
 
 The project uses machine learning to predict 10 year CHD risk based on clinical and lifestyle factors.The approach includes data preprocessing, feature engineering and model training for accurate predictions. The goal is to enhance early diagnoses, support medical decision-making, and contribute to preventive  healthcare strategies.
 
+
+
+![Screenshot (17)](https://github.com/user-attachments/assets/3993a4ad-4cc4-4afb-b409-0f21a5182b97)
+
 ### Data Sources
 
 The primary dataset used for this machine learning prediction is the "MGH_PredictionDataset.csv" file containing columns (features) that provided information on individual health and lifestyle.
@@ -49,6 +53,9 @@ The primary dataset used for this machine learning prediction is the "MGH_Predic
   4. Predictive analysis
   5. - Can we predict whether a person is likely to develop CHD within the next 10 years (Yes/No) ?.
     
+     - 
+    ![Screenshot (15)](https://github.com/user-attachments/assets/6a09929c-e95e-43d3-af4a-0d66e1a9a9b8)
+
     ### Data analysis
 
   ```python
