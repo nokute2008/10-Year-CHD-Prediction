@@ -91,9 +91,11 @@ round(accuracy_score*100,2) # Represnted as a percantage with 2 decimal plaqce
 
   1.Model performance
   - We trained a logistic regression model on the cleaned and balanced dataset.The model showed a strong accuracy of 82% on the test set.The metrics indicate that the model was relatively good at identifying both true positives and true negatives.
-2.Feature correlation and importance
+    
+  2.Feature correlation and importance
   - From the correlation matrix and feature analysis , we found out that significant features influencing CHD risk were cholesterol levels, blood pressure and age .Other factors like smoking, exercise and diabetes also showed a strong association with the likehood of developing CHD .For example, the correlation between smoking status and CHD was found to be particulary strong (close to 0.6), confirming the importance  of lifestyle factors in predicting CHD.
-3. Limitations and further improvements
+    
+  3. Limitations and further improvements
   - The model could benefit from additional features such as dietary habits or family medical history, which may provide more insights into CHD prediction.
 
 ### Recommendations
