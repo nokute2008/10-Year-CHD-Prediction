@@ -14,6 +14,7 @@
 - [References](#references)
 
 ### Project Overview
+---
 
 The project uses machine learning to predict 10 year CHD risk based on clinical and lifestyle factors.The approach includes data preprocessing, feature engineering and model training for accurate predictions. The goal is to enhance early diagnoses, support medical decision-making, and contribute to preventive  healthcare strategies.
 
