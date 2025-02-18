@@ -46,8 +46,8 @@ The primary dataset used for this machine learning prediction is the "MGH_Predic
   EDA involved exploring the CHD Prediction data to answer key questions such as
   1. Demographics and risk factors
      - How does age, gender, or lifestyle habits correlate with CHD risk?
-  2. Featureimportance and relationships
-     - Which features ( eg cholesterol levels, blood pressure and BMI) show the strongest corelation with high CHD.
+  2. Feature importance and relationships
+     - Which features ( eg cholesterol levels, blood pressure and BMI) show the strongest correlation with high CHD.
      - How does different risk factors interact? (eg cholesterol, blood pressure) amoung patients?
   3. Time-based trends
      - Does CHD risk increase with age, or have there been historical trends in CHD.
