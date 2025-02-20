@@ -57,36 +57,16 @@ The primary dataset used for this machine learning prediction is the "MGH_Predic
      - 
     ![Screenshot (15)](https://github.com/user-attachments/assets/6a09929c-e95e-43d3-af4a-0d66e1a9a9b8)
 
+
+
+
+    ![Screenshot (35)](https://github.com/user-attachments/assets/b7a17645-aef0-4b86-bfd3-5e69cfe3d45c)
+
     ### Data analysis
 
-  ```python
-  # Replace the nulls with mode or mean depending on the data type
-fill_values = {
-'education': dataset['education'].mode()[0],
-'cigsPerDay': dataset['cigsPerDay'].mean(),
-'BPMeds': dataset['BPMeds'].mode()[0],
-'totChol': dataset['totChol'].mean(),
-'BMI': dataset['BMI'].mean(),
-'heartRate': dataset['heartRate'].mean(),
-'glucose': dataset['glucose'].mean()
-}
-```
-2.```python
-MODEL SELECTION TRAINING AND VALIDATION
-1. Decision Tree Classifier¶
-from sklearn.tree import DecisionTreeClassifier
+  python
+  ![Screenshot (37)](https://github.com/user-attachments/assets/c7a93061-2b5f-456b-9d56-c2dd4e5c0b5d)
 
-# Initialize/Declare the Decision Tree Model
-decision_tree_model = DecisionTreeClassifier()
-# Fitting the model with the training data
-decision_tree_model.fit(X_train, y_train)
-In a Jupyter environment, please rerun this cell to show the HTML representation or trust the notebook.
-On GitHub, the HTML representation is unable to render, please try loading this page with nbviewer.org.
-# calculate the accuracy
-accuracy_score = decision_tree_model.score (X_test,y_test)
-round(accuracy_score*100,2) # Represnted as a percantage with 2 decimal plaqce
-75.24
-```
 
   ### Findings
 
